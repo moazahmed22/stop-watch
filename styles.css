@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 9%);
+}
+h1{
+    color: hsl(210, 4%, 82%);
+    font-size: 3rem;
+}
+#stopWatch {
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    color: hsl(210, 4%, 82%);
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 10px;
+}
+#start, #stop , #reset{
+    margin: 20px;
+    padding: 10px 25px;
+    min-width: 124px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+#start {
+    background-color: hsl(120, 94%, 43%);
+}
+#start:hover {
+    background-color: hsl(120, 94%, 33%);
+}
+#stop {
+    background-color: hsl(12, 94%, 43%);
+}
+#stop:hover{
+    background-color: hsl(12, 94%, 33%);
+}
+#reset {
+    background-color: hsl(212, 100%, 51%);
+}
+#reset:hover{
+    background-color: hsl(212, 100%, 41%);
+}
